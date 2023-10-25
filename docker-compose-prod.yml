@@ -17,7 +17,7 @@ services:
       MYSQL_ROOT_PASSWORD: password
     restart: always
   backend:
-    image: ${DOCKER_HUB_USERNAME}/se331-project:latest
+    image: ${DOCKER_HUB_USERNAME}/se331-project-test:latest
     ports:
       - "8100:8080"
     environment:

@@ -41,7 +41,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: putipongsailen/se331-project:latest
+          tags: putipongsailen/se331-project-test:latest
       -
         name: Copy file via ssh password
         uses: appleboy/scp-action@v0.1.4
